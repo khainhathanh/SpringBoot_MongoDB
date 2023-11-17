@@ -1,0 +1,13 @@
+2023-01-09 10:44:43 ERROR TourService:26 - com.mongodb.MongoQueryException: Query failed with error code 2 and error message 'unknown operator: $option' on server localhost:27017
+2023-01-09 10:45:05 ERROR TourService:26 - com.mongodb.MongoQueryException: Query failed with error code 2 and error message 'unknown operator: $option' on server localhost:27017
+2023-01-09 10:45:17 ERROR TourService:26 - com.mongodb.MongoQueryException: Query failed with error code 2 and error message 'unknown operator: $option' on server localhost:27017
+2023-01-12 11:20:53 ERROR TourService:29 - com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+2023-01-12 11:28:03 ERROR TourService:46 - java.lang.NullPointerException
+2023-01-12 14:52:41 ERROR TourService:44 - org.bson.BsonInvalidOperationException: Value expected to be of type STRING is of unexpected type OBJECT_ID
+2023-01-12 14:55:51 ERROR TourService:44 - org.bson.BsonInvalidOperationException: Value expected to be of type STRING is of unexpected type OBJECT_ID
+2023-01-12 15:07:16 ERROR TourService:44 - org.bson.BsonInvalidOperationException: Value expected to be of type STRING is of unexpected type OBJECT_ID
+2023-01-12 15:11:08 ERROR TourService:44 - org.bson.BsonInvalidOperationException: Value expected to be of type INT32 is of unexpected type OBJECT_ID
+2023-01-12 17:45:43 ERROR TourService:51 - java.lang.ClassCastException: Cannot cast com.mongodb.BasicDBObject to org.bson.Document
+2023-01-12 17:48:49 ERROR TourService:52 - java.lang.NullPointerException
+2023-01-12 18:46:53 ERROR TourService:52 - java.lang.ClassCastException: java.lang.String cannot be cast to org.bson.types.ObjectId
+2023-01-17 14:52:05 ERROR T100Service:42 - org.bson.codecs.configuration.CodecConfigurationException: Can't find a codec for class com.springboot.hahalolo.entity.T100$T101.
